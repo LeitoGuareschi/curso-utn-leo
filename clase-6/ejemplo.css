@@ -1,0 +1,30 @@
+/* font-family: "Open Sans", sans-serif;*/
+
+
+
+.texto{
+    background-color: yellow;
+    column-count: 3;
+    column-gap: 60px;
+    column-rule: 3px solid black;
+    text-align: center;
+    color: red;
+    box-shadow: 25px 30px 27px -51px rgba(0,0,0,0.82);
+
+}
+.texto p{
+    margin: 0;
+}
+
+h1, h2{
+    font-family: "Open Sans", sans-serif;
+
+}
+
+p{
+    font-family: "Open Sans", sans-serif;
+}
+.iconos{
+    font-size: 200px;
+    color: aqua;
+}
