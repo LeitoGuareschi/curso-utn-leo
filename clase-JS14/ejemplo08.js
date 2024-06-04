@@ -1,6 +1,6 @@
 function validarForm() {
     const nombreValido = true;
-    const passWordValido = validarLargo(document.forms.tetx1.value, 5);
+    const passWordValido = validarLargo(document.form.text1.value, 5);
 
     console.log(nombreValido, passWordValido)
 
@@ -15,6 +15,6 @@ function validarForm() {
 
 
 
-function validarLargo(texto, LargoRequerido) {
-    return texto.length >= LargoRequerido
+function validarLargo(texto, largoRequerido) {
+    return texto.length >= largoRequerido
 }
