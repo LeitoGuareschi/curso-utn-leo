@@ -1,0 +1,9 @@
+#mensaje{
+    background-color: pink;
+    border: solid red;
+    position: absolute;
+    right: 10px;
+    top: 100px;
+    padding: 40px;
+    font-weight: bold;
+}
